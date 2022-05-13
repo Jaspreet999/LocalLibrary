@@ -22,7 +22,7 @@ app.use(express.urlencoded(
    { extended:false}
 ))
 
-var port = (1001|| process.env.PORT)
+var port = ( process.env.PORT || 1001 )
 
 //set view engine
 app.set("views",path.join(__dirname,'views'))
