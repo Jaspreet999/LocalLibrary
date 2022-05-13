@@ -1,0 +1,30 @@
+{
+  "name": "locallibrary",
+  "version": "1.0.0",
+  "description": "Website contains information about a library",
+  "engines": {"node":"v12.18.3"},
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jaspreet999/LocalLibrary.git"
+  },
+  "author": "Jaspreet Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jaspreet999/LocalLibrary/issues"
+  },
+  "homepage": "https://github.com/Jaspreet999/LocalLibrary#readme",
+  "dependencies": {
+    "async": "^3.2.3",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.0",
+    "luxon": "^2.4.0",
+    "mongoose": "^6.3.3",
+    "nodemon": "^2.0.16",
+    "path": "^0.12.7",
+    "pug": "^3.0.2"
+  }
+}

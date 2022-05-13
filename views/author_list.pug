@@ -1,0 +1,15 @@
+extend layout
+
+block content 
+
+    h1 #{title} 
+
+    ul 
+        if list_item
+            each author in list_item
+                li 
+                    a(href=author.url)  #{author.name}
+                    |  #{author.lifespan}
+        
+        else 
+            li There are no authors.
