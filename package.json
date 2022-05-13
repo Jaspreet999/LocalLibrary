@@ -2,7 +2,7 @@
   "name": "locallibrary",
   "version": "1.0.0",
   "description": "Website contains information about a library",
-  "engines": {"node":"v12.18.3"},
+  "engines": {"node":"12.18.3"},
   "main": "app.js",
   "scripts": {
     "start": "nodemon app.js"
